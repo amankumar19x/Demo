@@ -13,6 +13,8 @@ public class Test {
         checkEvenOdd(16);
 
         checkPrime(17);
+
+        checkPositiveNegativeNeutral(-1);
     }
 
     static void checkValidity(String name, int age)
@@ -53,6 +55,13 @@ public class Test {
         {
             System.out.println(n+" is not a prime number");
         }
+    }
+
+    static void checkPositiveNegativeNeutral(int n)
+    {
+        if(n>0) System.out.println(n+" is positive");
+        else if(n<0) System.out.println(n+" is negative");
+        else System.out.println(n+" is neutral");
     }
 
     
