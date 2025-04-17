@@ -15,6 +15,8 @@ public class Test {
 
         System.out.println("Sum = "+sum.getSum());
         System.out.println("Multiply = "+multiply.getMult());
+
+        checkEvenOdd(16);
     }
 
     static void checkValidity(String name, int age)
@@ -26,5 +28,13 @@ public class Test {
         else{
             System.out.println(name+" is not a valid candidate");
         }
+    }
+
+    static void checkEvenOdd(int n)
+    {
+        if(n%2==0) 
+        System.out.println(n+" is Even");
+        else 
+        System.out.println(n+ " is odd");
     }
 }
