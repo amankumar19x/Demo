@@ -10,12 +10,6 @@ public class Test {
 
         checkValidity(name, age);
 
-        Sum sum = new Sum(12,3);
-        Multiply multiply = new Multiply(3, 9);
-
-        System.out.println("Sum = "+sum.getSum());
-        System.out.println("Multiply = "+multiply.getMult());
-
         checkEvenOdd(16);
     }
 
@@ -37,4 +31,6 @@ public class Test {
         else 
         System.out.println(n+ " is odd");
     }
+
+    
 }
